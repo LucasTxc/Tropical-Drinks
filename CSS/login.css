@@ -1,0 +1,53 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}/* Esse código tem a função de resetar o estilo do navegador*/
+
+body{/*Para conseguir movimentar a div, antes tem que definir uma altura e largura conforme o exemplo =*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background-image:url('../ASSETS/ComboTropical.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.paragrafo{
+    text-align: center;
+}
+ .conteiner{
+    border:5px solid rgba(102, 51, 153, 0);
+    display:flex;
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.contForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+.finput{    
+    padding: 5px;
+    margin-bottom:5px;
+    margin-top: 5px;
+
+}
+.foinput{
+    margin-top: 5px;
+    padding: 5px;
+}
+.fbutton{
+    margin-top: 15px;
+    width: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+}
+.fbutton:hover{ /*Manieras de altera evento de estilo ao passar com o curso da class atual*/
+background-color: aqua; 
+}
